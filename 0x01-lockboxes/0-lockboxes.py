@@ -5,10 +5,10 @@ actually be opened"""
 
 def canUnlockAll(boxes):
 
-    if (len(boxes) == 0):
-        return False
-    
     if (type(boxes) is not list):
+        return False
+
+    if (len(boxes) == 0):
         return False
 
     keyys = [0]
