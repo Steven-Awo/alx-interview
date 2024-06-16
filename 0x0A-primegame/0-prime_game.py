@@ -19,7 +19,7 @@ def isWinner(x, nums):
     primesWin[0] = primesWin[1] = False
 
     for a in range(2, int(n**0.5) + 1):
-        if primesWin[x]:
+        if primesWin[a]:
             for b in range(a**2, n + 1, a):
                 primesWin[b] = False
 
